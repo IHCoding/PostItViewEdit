@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewActivity">
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="374dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="78dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/FNInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/LNInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="info@mail.com"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="70dp"
+            android:layout_height="36dp"
+            android:text="Edit" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/viewTV"
+        android:layout_width="134dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="18dp"
+        android:text="View Activity"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="125dp"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/tvFname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="77dp"
+        android:text="First Name:" />
+
+    <TextView
+        android:id="@+id/tvLname"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="101dp"
+        android:text="Last Name:" />
+
+</RelativeLayout>
